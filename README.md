@@ -4,10 +4,10 @@ A Simple Python Password Generator with .csv Password Storage. A complete projec
 # Installation Instructions
 
 # How to Use
-In terminal, run main.py. 
-Follow the text prompt to enter a name for your new randomly generated password. 
-Next, decide if you would like to save it in a CSV file named 'passwords.cv'.
-Enter 'q' at any moment to exit the terminal script.
+1. In terminal, run main.py. 
+2. Follow the text prompt to enter a name for your new randomly generated password. 
+3. Next, decide if you would like to save it in a CSV file named 'passwords.cv'.
+4. Enter 'q' at any moment to exit the terminal script.
 
 # MIT License
 
