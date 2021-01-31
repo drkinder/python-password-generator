@@ -5,7 +5,7 @@ import random
 class PasswordManager:
 
     def __init__(self):
-        self.csv_path = '../passwords.csv'
+        self.csv_path = 'passwords.csv'
 
         lower_case_letters = list(range(97, 123))
         upper_case_letters = list(range(65, 91))
