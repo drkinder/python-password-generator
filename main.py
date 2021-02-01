@@ -28,9 +28,8 @@ class PasswordManager:
                 break
 
     def generate_new_password(self, length=15, special_chars='!$^&*'):
-        password = ''.join([self.generate_random_char(special_chars) for _ in range(length)])
-        return password
-
+        return ''.join([self.generate_random_char(special_chars) for _ in range(length)])
+         
     def generate_random_char(self, special_chars=''):
         return chr(random.choice(self.password_chars + [ord(c) for c in special_chars]))
 
