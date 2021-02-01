@@ -27,10 +27,8 @@ class PasswordManager:
             elif response == 'q':
                 break
 
-    def generate_new_password(self, length=15, special_chars='!$^&*', save_as=None):
+    def generate_new_password(self, length=15, special_chars='!$^&*'):
         password = ''.join([self.generate_random_char(special_chars) for _ in range(length)])
-        if save_as:
-            self.save_password(save_as, password)
         return password
 
     def generate_random_char(self, special_chars=''):
