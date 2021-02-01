@@ -10,7 +10,7 @@ class PasswordManager:
         lowercase_letters = list(range(97, 123))
         uppercase_letters = list(range(65, 91))
         digits = list(range(48, 58))
-        self.password_chars = lower_case_letters + upper_case_letters + digits
+        self.password_chars = lowercase_letters + uppercase_letters + digits
 
     def main(self):
         while True:
