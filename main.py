@@ -7,10 +7,10 @@ class PasswordManager:
     def __init__(self):
         self.csv_path = 'passwords.csv'
 
-        lower_case_letters = list(range(97, 123))
-        upper_case_letters = list(range(65, 91))
+        lowercase_letters = list(range(97, 123))
+        uppercase_letters = list(range(65, 91))
         digits = list(range(48, 58))
-        self.pass_word_chars = lower_case_letters + upper_case_letters + digits
+        self.password_chars = lower_case_letters + upper_case_letters + digits
 
     def main(self):
         while True:
@@ -34,7 +34,7 @@ class PasswordManager:
         return password
 
     def generate_random_char(self, special_chars=''):
-        return chr(random.choice(self.pass_word_chars + [ord(c) for c in special_chars]))
+        return chr(random.choice(self.password_chars + [ord(c) for c in special_chars]))
 
     def save_password(self, name, password):
         with open(self.csv_path, 'a', newline='') as file:
