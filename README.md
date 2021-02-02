@@ -2,7 +2,7 @@
 A Simple Python Password Generator with .csv Password Storage. A complete project tutorial is available at https://www.nimblecoding.com/tutorial-python-password-generator/.
 
 # Installation Instructions
-Install via git
+Download via git
 ```
 git clone https://github.com/drkinder/python-password-generator.git
 ```
